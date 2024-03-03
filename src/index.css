@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root{
+--e-book: 184 100% 39%;
+--e-book-dark: 224 23% 20%;
+  }
+
+  html {
+    font-family: "Roboto", system-ui, sans-serif;
+  }
+  body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+}
+
+@font-face {
+  font-family: "grostekMedium";
+  src: local('grostekMedium'),url("./font/acid-grotesk-medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "grostekRegular";
+  src: local('grostekRegular'),url("./font/acid-grotesk-regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "grostekBold";
+  src: local('grostekBold'),url("./font/acid-grotesk-bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "grostekNormal";
+  src: local('grostekNormal'),url("./font/acid-grotesk-normal.otf") format("opentype");
+}
+
+.pGrostek {
+/* p which is mean paragraph */
+  @apply leading-[160%] tracking-wide font-grostekMd
+}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+  
+}
+
+.ebparagraph{
+@apply leading-[30px]
+}
