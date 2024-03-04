@@ -31,6 +31,13 @@ const Testimonial = () => {
       kata_mereka:
         "Sebagai pemula yang tidak memiliki latar belakang pemrograman, buku ini sangat cocok untuk dijadikan referensi belajar. Penjelasannya ringkas tapi mudah dipahami.",
     },
+    {
+      img_profile: "/e-book/soni.png",
+      name: "soni canra wiguna",
+      position: "Fullstack Engineer",
+      kata_mereka:
+        "Dengan adanya buku ini saya bisa lebih memperdalam ilmu tailwind CSS saya dan membuat saya lebih membenci CSS murni, terimakasih banyak.",
+    },
   ]
   return (
     <MaxWidthWrapper className="rounded-[20px] bg-[#EDFCFD] py-[100px] w-full flex flex-col">
