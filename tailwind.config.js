@@ -38,6 +38,9 @@ export default {
       gap: {
         "30px": "30px",
       },
+      boxShadow: {
+        "eb-btm": "rgba(0, 0, 0, 0.35) 0px 25px 20px -20px",
+      },
     },
   },
   plugins: [require("tailwind-scrollbar-hide")],

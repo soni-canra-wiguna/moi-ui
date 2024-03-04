@@ -4,7 +4,10 @@ import MiniLabel from "./MiniLabel"
 
 const HeroSection = () => {
   return (
-    <div className='w-full h-[1074px] bg-[url("/e-book/herobg.svg")] bg-no-repeat'>
+    <div className='w-full h-[1074px] bg-[url("/e-book/herobg.svg")] bg-no-repeat relative'>
+      <span className="absolute w-[576px] h-[576px] rounded-full bg-white/[0.02] -top-[79px] -right-[160px]" />
+      <span className="w-[210px] h-[430px] rounded-[20px] absolute top-[265px] -left-[24px] bg-white/[0.02] skew-y-3 z-10" />
+      <span className="w-[210px] h-[430px] rounded-[20px] absolute top-[163px] left-8 bg-white/[0.02] skew-y-6 z-[11]" />
       <MaxWidthWrapper>
         <Navbar />
         <Hero />
@@ -52,15 +55,16 @@ const Navbar = () => {
 
 const Hero = () => {
   return (
-    <section className="w-full grid grid-cols-2 pt-[216px]">
+    <section className="w-full grid grid-cols-2 pt-[216px] z-20 relative">
       <div className="flex flex-col">
         <h1 className="mb-[20px] font-medium text-5xl text-white">
-          Sebuah framework CSS untuk developer yang memiliki phobia terhadap CSS
+          Sebuah framework CSS untuk developer yang memiliki phobia <br />
+          terhadap CSS
         </h1>
         <p className="mb-[50px] leading-32 text-white/80">
-          Buku ini akan mengajarkan kamu konsep utility-first pada CSS dan
-          diakhiri dengan membangun sebuah website yang responsive dengan
-          Tailwind CSS.
+          Buku ini akan mengajarkan kamu konsep utility-first pada CSS <br />
+          dan diakhiri dengan membangun sebuah website yang <br /> responsive
+          dengan Tailwind CSS.
         </p>
         <div className="flex items-center gap-10 mb-[100px]">
           <button className="px-[45px] py-[25px] flex items-center gap-[15px] text-base bg-ebprimary rounded-full shadow-xl shadow-ebprimary/30 text-white">
