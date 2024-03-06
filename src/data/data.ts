@@ -1,3 +1,10 @@
+export interface DataProps {
+  image: string
+  title: string
+  slug: string
+  desc?: string
+}
+
 export const datas = [
   {
     image: "/thumbnails/wb.png",
