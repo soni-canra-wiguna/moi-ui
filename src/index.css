@@ -4,8 +4,13 @@
 
 @layer base {
   :root{
---e-book: 184 100% 39%;
---e-book-dark: 224 23% 20%;
+  --e-book: 184 100% 39%;
+  --e-book-dark: 224 23% 20%;
+  --wumbo-primary: 217 91% 60%;
+  --wumbo-dark: 217 60% 25%;
+  --wumbo-muted: 217 19% 50%;
+  --wumbo-primary-light: 217 100% 89%;
+  --wumbo-muted-light: 0 0% 100% 80%;
   }
 
   html {
@@ -49,4 +54,8 @@
 
 .ebparagraph{
 @apply leading-[30px]
+}
+
+.wtransition {
+  @apply transition duration-300 ease-in-out
 }

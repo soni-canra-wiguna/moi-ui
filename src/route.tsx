@@ -6,6 +6,7 @@ import HomePage from "./app/page"
 import TeamFlow from "./app/team-flow/page"
 import WebsiteBranding from "./app/websites-branding/page"
 import ScrollToTop from "./lib/scrollToTop"
+import WumboPage from "./app/wumbo/page"
 
 export const Root = () => {
   const root = [
@@ -32,6 +33,10 @@ export const Root = () => {
     {
       path: "e-book",
       element: <EBookPage />,
+    },
+    {
+      path: "wumbo",
+      element: <WumboPage />,
     },
   ]
   return (
