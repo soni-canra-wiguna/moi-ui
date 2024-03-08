@@ -19,9 +19,9 @@ const Card = ({ slug, title, image }: DataProps) => {
   return (
     <Link
       to={slug}
-      className="border-2 border-black rounded-lg transition-colors duration-300 ease-in-out overflow-hidden flex flex-col relative p-3 hover:bg-black hover:shadow-md group"
+      className="border-2 border-black rounded-lg transition-colors duration-300 ease-in-out overflow-hidden flex flex-col relative p-3 hover:bg-black hover:shadow-md group shimmer"
     >
-      <div className="w-full h-[250px] overflow-hidden border-gray-300/60 rounded-lg border group-hover:border-black transition-colors duration-300 ease-in-out mb-3">
+      <div className="w-full h-[250px] overflow-hidden border-gray-300/60 rounded-lg border group-hover:border-black transition-colors duration-300 ease-in-out mb-3 z-20">
         <img
           src={image}
           alt={title}

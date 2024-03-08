@@ -16,7 +16,7 @@ const HomePage = () => {
             className="selection:bg-transparent w-[200px] lg:w-[300px]"
           />
           <div className="flex flex-col gap-4 items-center z-40">
-            <h1 className="text-2xl font-bold font-grostekBold flex flex-col leading-none tracking-32">
+            <h1 className="text-2xl font-bold font-grostekBold flex flex-col leading-none tracking-32 relative">
               MOI UI
             </h1>
             <p className="max-w-xl text-center w-full text-black/60 mb-4 md:mb-6 lg:mb-10">
@@ -40,7 +40,7 @@ const SocialMedia = () => {
       <a
         target="_blank"
         href="https://instagram.com"
-        className="flex items-center gap-2.5 rounded-full hover:bg-black/[0.05] text-black font-medium px-[18px] py-[9px] md:px-[22px] md:py-[12px] text-lg wtransition w-full justify-center sm:w-max border border-black"
+        className="flex items-center gap-2.5 rounded-full hover:bg-black/[0.05] text-black font-medium px-[18px] py-[9px] md:px-[22px] md:py-[12px] text-lg wtransition w-full justify-center sm:w-max border border-black shimmer"
       >
         <Instagram className="w-[18px] h-[18px]" />
         <span className="tracking-wide">Instagram</span>
@@ -48,7 +48,7 @@ const SocialMedia = () => {
       <a
         target="_blank"
         href="https://github.com/soni-canra-wiguna"
-        className="flex items-center gap-2.5 rounded-full bg-black text-white font-medium px-[18px] py-[9px] md:px-[22px] md:py-[12px] text-lg hover:bg-opacity-85 wtransition w-full justify-center sm:w-max"
+        className="flex items-center gap-2.5 rounded-full bg-black text-white font-medium px-[18px] py-[9px] md:px-[22px] md:py-[12px] text-lg hover:bg-opacity-85 wtransition w-full justify-center sm:w-max shimmer"
       >
         <Github className="w-[18px] h-[18px]" />
         <span className="tracking-wide">Github</span>
