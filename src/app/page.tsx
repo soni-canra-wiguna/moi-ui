@@ -47,7 +47,7 @@ const SocialMedia = () => {
       </a>
       <a
         target="_blank"
-        href="https://github.com/soni-canra-wiguna"
+        href="https://github.com/soni-canra-wiguna/moi-ui"
         className="flex items-center gap-2.5 rounded-full bg-black text-white font-medium px-[18px] py-[9px] md:px-[22px] md:py-[12px] text-lg hover:bg-opacity-85 wtransition w-full justify-center sm:w-max shimmer"
       >
         <Github className="w-[18px] h-[18px]" />
