@@ -12,14 +12,17 @@
   --wumbo-primary-light: 217 100% 89%;
   --wumbo-muted-light: 0 0% 100% 80%;
 
-  --tp-primary: 184 100% 39%;
-  --tp-secondary: 184 100% 39%;
-  --tp-background: 184 100% 39%;
-  --tp-foreground: 184 100% 39%;
-  --tp-text: 184 100% 39%;
-  --tp-paragraph: 184 100% 39%;
+  --tp-primary: 152.1 100% 33.33%;
+  --tp-secondary: 222.2 11.02% 48.04%; 
+  --tp-background: 0 0% 100%;
+  --tp-foreground: 0 0% 12.94%;
+  --tp-text: 0 0% 12.94%;
+  --tp-paragraph: 214 63% 96% 0.5%;
+  --tp-paragraph-hover: 152.1 100% 33.33%;
   }
 
+  /* #6d7588 #00ab55 #6e7481 #ffffff #212121 #f0f3f7 #00ab55 #03AC0E*/
+  
   html {
     font-family: "Roboto", system-ui, sans-serif;
   }
