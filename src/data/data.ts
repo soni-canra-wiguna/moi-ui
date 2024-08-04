@@ -49,4 +49,18 @@ export const datas = [
     desc: "Figma social media content templates for branding, marketing, insights, and more. Free for personal and commercial use!",
     responsive: ["desktop"],
   },
+  {
+    image: "/thumbnails/wumbo.png",
+    title: "Toko Pedia Clone",
+    slug: "/tokopedia-clone",
+    desc: "tokopedia clone",
+    responsive: ["desktop"],
+  },
+  {
+    image: "/random-shapes.png",
+    title: "Random Shapes",
+    slug: "/random-shapes",
+    desc: "hanya kegabutan pribadi",
+    responsive: ["mobile", "tablet", "desktop"],
+  },
 ]

@@ -7,6 +7,8 @@ import TeamFlow from "./app/team-flow/page"
 import WebsiteBranding from "./app/websites-branding/page"
 import ScrollToTop from "./lib/scrollToTop"
 import WumboPage from "./app/wumbo/page"
+import TokoPediaClonePage from "./app/tokopedia-clone/page"
+import RandomShapes from "./app/random-shapes/page"
 
 export const Root = () => {
   const root = [
@@ -37,6 +39,14 @@ export const Root = () => {
     {
       path: "wumbo",
       element: <WumboPage />,
+    },
+    {
+      path: "tokopedia-clone",
+      element: <TokoPediaClonePage />,
+    },
+    {
+      path: "random-shapes",
+      element: <RandomShapes />,
     },
   ]
   return (

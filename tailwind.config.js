@@ -4,6 +4,13 @@ const defaultTheme = require("tailwindcss/defaultTheme")
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    container: {
+      center: true,
+      padding: "2rem",
+      screens: {
+        "2xl": "1440px",
+      },
+    },
     extend: {
       screens: {
         sm: "601px",
@@ -20,6 +27,13 @@ export default {
         wmuted: "hsl(var(--wumbo-muted))",
         wprimarylight: "hsl(var(--wumbo-primary-light))",
         wmutedlight: "hsl(var(--wumbo-muted-light))",
+        //tokopedia
+        tpprimary: "hsl(var(--tp-primary))",
+        tpsecondary: "hsl(var(--tp-secondary))",
+        tpbackground: "hsl(var(--tp-background))",
+        tpforeground: "hsl(var(--tp-foreground))",
+        tptext: "hsl(var(--tp-text))",
+        tpparagraph: "hsl(var(--tp-paragraph))",
       },
       lineHeight: {
         30: "30px",

@@ -11,6 +11,13 @@
   --wumbo-muted: 217 19% 50%;
   --wumbo-primary-light: 217 100% 89%;
   --wumbo-muted-light: 0 0% 100% 80%;
+
+  --tp-primary: 184 100% 39%;
+  --tp-secondary: 184 100% 39%;
+  --tp-background: 184 100% 39%;
+  --tp-foreground: 184 100% 39%;
+  --tp-text: 184 100% 39%;
+  --tp-paragraph: 184 100% 39%;
   }
 
   html {
