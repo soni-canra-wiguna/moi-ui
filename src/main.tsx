@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
-import "./index.css"
+import "./global.css"
 import { Root } from "./route"
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
