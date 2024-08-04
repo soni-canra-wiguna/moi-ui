@@ -26,7 +26,7 @@ const Navbar = () => {
           Home
         </div>
         <Link
-          to="/minimalist/wb/#project"
+          to="/website-branding#project"
           className="text-xl hover:text-black hover:bg-white transition-all gap-1 flex flex-row items-center font-medium text-gray-500 px-4 py-2 rounded-[80px]"
         >
           <span className="bg-gray-500 p-0.5 w-5 h-5 text-black rounded-full text-[11.5px] flex items-center justify-center">
@@ -35,13 +35,13 @@ const Navbar = () => {
           <span>Project</span>
         </Link>
         <Link
-          to="/minimalist/wb/#about"
+          to="/website-branding#about"
           className="text-xl hover:text-black hover:bg-white transition-all font-medium text-gray-500 px-2 py-2 rounded-[80px]"
         >
           About
         </Link>
         <Link
-          to="/minimalist/wb/#contact"
+          to="/website-branding#contact"
           className="text-xl hover:text-black hover:bg-white transition-all font-medium text-gray-500 px-2 py-2 rounded-[80px]"
         >
           Contact
