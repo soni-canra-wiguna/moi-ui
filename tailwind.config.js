@@ -56,6 +56,13 @@ export default {
         grostekBold: "grostekBold",
         // dm sans
         dmsans: ['"DM Sans"', ...defaultTheme.fontFamily.sans],
+        // open sauce font
+        openSauceLight: "openSauceLight",
+        openSauceRegular: "openSauceRegular",
+        openSauceMedium: "openSauceMedium",
+        openSauceSemibold: "openSauceSemibold",
+        openSauceBold: "openSauceBold",
+        openSauceExtraBold: "openSauceExtraBold",
       },
       gap: {
         "30px": "30px",
