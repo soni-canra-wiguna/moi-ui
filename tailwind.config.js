@@ -34,6 +34,8 @@ export default {
         tpforeground: "hsl(var(--tp-foreground))",
         tptext: "hsl(var(--tp-text))",
         tpparagraph: "hsl(var(--tp-paragraph))",
+        tpphover: "hsl(var(--tp-paragraph-hover))",
+        tpinput: "hsl(var(--tp-input))",
       },
       lineHeight: {
         30: "30px",
