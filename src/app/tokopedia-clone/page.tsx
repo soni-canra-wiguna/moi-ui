@@ -1,4 +1,4 @@
-import useDocumentTitle from "../../hook/use-document-title"
+import useDocumentTitle from "@/hook/use-document-title"
 import Banner from "./_components/Banner"
 import CategoriesWithServices from "./_components/CategoriesWithServices"
 import Header from "./_components/Header"
