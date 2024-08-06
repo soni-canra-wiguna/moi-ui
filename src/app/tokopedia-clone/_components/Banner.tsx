@@ -33,6 +33,10 @@ const carouselItems = [
     image: "/tokopedia-clone/banner5.webp",
     href: "/",
   },
+  {
+    image: "/tokopedia-clone/banner6.webp",
+    href: "/",
+  },
 ]
 
 export default function Banner() {
