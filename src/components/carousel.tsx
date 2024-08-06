@@ -1,14 +1,13 @@
 import * as React from "react"
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react"
-import useEmblaCarousel from "embla-carousel-react"
-import {
-  type EmblaCarouselType as CarouselApi,
-  type EmblaOptionsType as CarouselOptions,
-  type EmblaPluginType as CarouselPlugin,
-} from "embla-carousel"
-
+import useEmblaCarousel, { UseEmblaCarouselType } from "embla-carousel-react"
 import { cn } from "../lib/utils"
 import { Button } from "./button"
+
+type CarouselApi = UseEmblaCarouselType[1]
+type UseCarouselParameters = Parameters<typeof useEmblaCarousel>
+type CarouselOptions = UseCarouselParameters[0]
+type CarouselPlugin = UseCarouselParameters[1]
 
 type CarouselProps = {
   opts?: CarouselOptions
@@ -59,7 +58,7 @@ const Carousel = React.forwardRef<
         ...opts,
         axis: orientation === "horizontal" ? "x" : "y",
       },
-      plugins
+      plugins as any
     )
     const [canScrollPrev, setCanScrollPrev] = React.useState(false)
     const [canScrollNext, setCanScrollNext] = React.useState(false)

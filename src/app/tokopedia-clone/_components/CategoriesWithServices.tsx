@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import { useState } from "react"
 import MaxWidthWrapper from "./MaxWidthWrapper"
 import { Card } from "../../../components/ui/card"
 import { Title } from "./Title"

@@ -72,7 +72,7 @@ export default function Banner() {
         plugins={[
           Autoplay({
             delay: 4000,
-          }),
+          }) as any,
         ]}
       >
         <CarouselContent>
