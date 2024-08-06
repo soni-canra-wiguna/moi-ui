@@ -8,10 +8,10 @@ import {
 } from "lucide-react"
 import MaxWidthWrapper from "./MaxWidthWrapper"
 import { NavLink } from "react-router-dom"
-import { cn } from "../../../lib/utils"
+import { cn } from "@/lib/utils"
 import { GoSearch } from "react-icons/go"
 import { useEffect, useRef, useState } from "react"
-import { Button } from "../../../components/ui/button"
+import { Button } from "@/components/ui/button"
 
 const TopBar = () => {
   const topbarItem = [

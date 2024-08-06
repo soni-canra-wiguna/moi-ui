@@ -7,7 +7,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "../../../components/carousel"
+} from "@/components/carousel"
 import MaxWidthWrapper from "./MaxWidthWrapper"
 import Autoplay from "embla-carousel-autoplay"
 import { Link } from "react-router-dom"

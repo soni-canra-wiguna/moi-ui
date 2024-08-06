@@ -1,15 +1,10 @@
 import { useState } from "react"
 import MaxWidthWrapper from "./MaxWidthWrapper"
-import { Card } from "../../../components/ui/card"
+import { Card } from "@/components/ui/card"
 import { Title } from "./Title"
-import {
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-} from "../../../components/ui/tabs"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { HiOutlineDotsVertical } from "react-icons/hi"
-import { Input } from "../../../components/ui/input"
+import { Input } from "@/components/ui/input"
 import {
   Select,
   SelectContent,
@@ -17,8 +12,8 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "../../../components/ui/select"
-import { Button } from "../../../components/ui/button"
+} from "@/components/ui/select"
+import { Button } from "@/components/ui/button"
 
 const Categories = () => {
   return (

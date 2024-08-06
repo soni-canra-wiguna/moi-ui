@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import MaxWidthWrapper from "./MaxWidthWrapper"
-import getYear from "../../../lib/date"
+import getYear from "@/lib/date"
 
 const Footer = () => {
   const date = getYear()

@@ -1,4 +1,4 @@
-import getYear from "../../../lib/date"
+import getYear from "@/lib/date"
 import MaxWidthWrapper from "./MaxWidthWrapper"
 
 const Footer = () => {
