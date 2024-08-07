@@ -8,6 +8,13 @@ export interface DataProps {
 
 export const datas = [
   {
+    image: "/thumbnails/tokopedia.png",
+    title: "Tokopedia Clone",
+    slug: "/tokopedia-clone",
+    desc: "tokopedia clone",
+    responsive: ["desktop"],
+  },
+  {
     image: "/thumbnails/wb.png",
     title: "Website and Brands",
     slug: "website-branding",
@@ -50,14 +57,7 @@ export const datas = [
     responsive: ["desktop"],
   },
   {
-    image: "/thumbnails/wumbo.png",
-    title: "Toko Pedia Clone",
-    slug: "/tokopedia-clone",
-    desc: "tokopedia clone",
-    responsive: ["desktop"],
-  },
-  {
-    image: "/random-shapes.png",
+    image: "/thumbnails/random-shapes.png",
     title: "Random Shapes",
     slug: "/random-shapes",
     desc: "hanya kegabutan pribadi",
