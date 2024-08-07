@@ -311,6 +311,67 @@ const Services = () => {
   )
 }
 
+const MoreServices = () => {
+  const listServices = [
+    {
+      label: "kategori",
+      image: "/tokopedia-clone/services/services1.png",
+      href: "/",
+    },
+    {
+      label: "handphone & tablet",
+      image: "/tokopedia-clone/services/services2.png",
+      href: "/",
+    },
+    {
+      label: "top-up & tagihan",
+      image: "/tokopedia-clone/services/services3.png",
+      href: "/",
+    },
+    {
+      label: "elektronik",
+      image: "/tokopedia-clone/services/services4.png",
+      href: "/",
+    },
+    {
+      label: "perawatan hewan",
+      image: "/tokopedia-clone/services/services5.png",
+      href: "/",
+    },
+    {
+      label: "travel & entertaiment",
+      image: "/tokopedia-clone/services/services6.png",
+      href: "/",
+    },
+    {
+      label: "keuangan",
+      image: "/tokopedia-clone/services/services7.png",
+      href: "/",
+    },
+    {
+      label: "komputer & laptop",
+      image: "/tokopedia-clone/services/services8.png",
+      href: "/",
+    },
+  ]
+  return (
+    <section className="w-full flex items-center scrollbar-hide overflow-x-auto gap-2 will">
+      {listServices.map((service, i) => (
+        <Link to={service.href} key={i}>
+          <Card className="rounded-lg px-3 py-1.5 flex items-center gap-2 w-max">
+            <div className="size-6 overflow-hidden">
+              <img src={service.image} className="size-full" />
+            </div>
+            <span className="text-sm text-tptext leading-[26px] capitalize">
+              {service.label}
+            </span>
+          </Card>
+        </Link>
+      ))}
+    </section>
+  )
+}
+
 const CategoriesWithServices = () => {
   return (
     <MaxWidthWrapper className="mb-6">
@@ -319,6 +380,7 @@ const CategoriesWithServices = () => {
           <Categories />
           <Services />
         </div>
+        <MoreServices />
       </Card>
     </MaxWidthWrapper>
   )
