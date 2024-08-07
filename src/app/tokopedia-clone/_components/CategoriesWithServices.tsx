@@ -14,11 +14,82 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 import { Button } from "@/components/ui/button"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/carousel"
+import { Link } from "react-router-dom"
+import { ChevronLeft, ChevronRight } from "lucide-react"
 
 const Categories = () => {
+  const categories = [
+    {
+      image: "/tokopedia-clone/category1.webp",
+      href: "/",
+    },
+    {
+      image: "/tokopedia-clone/category2.webp",
+      href: "/",
+    },
+    {
+      image: "/tokopedia-clone/category3.webp",
+      href: "/",
+    },
+    {
+      image: "/tokopedia-clone/category4.webp",
+      href: "/",
+    },
+    {
+      image: "/tokopedia-clone/category5.webp",
+      href: "/",
+    },
+    {
+      image: "/tokopedia-clone/category6.webp",
+      href: "/",
+    },
+    {
+      image: "/tokopedia-clone/category6.webp",
+      href: "/",
+    },
+    {
+      image: "/tokopedia-clone/category6.webp",
+      href: "/",
+    },
+  ]
   return (
     <section className="w-1/2">
       <Title className="min-h-[30px] mb-4">Kategori Pilihan</Title>
+      <Carousel
+        className="w-full max-w-full group"
+        opts={{ align: "start", loop: true }}
+      >
+        <CarouselContent className="-ml-4">
+          {categories.map((category, i) => (
+            <CarouselItem className="pl-4 basis-1/4" key={i}>
+              <Link to={category.href}>
+                <Card className="border-tpsecondary w-full aspect-square rounded-[10px] overflow-hidden">
+                  <img src={category.image} className="size-full" />
+                </Card>
+              </Link>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+        <CarouselPrevious
+          className="size-8 bg-white shadow-sm transition-all duration-300 -left-[1.3rem]  translate-x-4 opacity-0 group-hover:translate-x-3 group-hover:opacity-100 border-[0.3px]"
+          icon={
+            <ChevronLeft className="size-6 stroke-[1.5] text-tpparagraph" />
+          }
+        />
+        <CarouselNext
+          className="size-8 bg-white shadow-sm transition-all duration-300 -right-[1.3rem] -translate-x-4 opacity-0 group-hover:-translate-x-3 group-hover:opacity-100 border-[0.3px]"
+          icon={
+            <ChevronRight className="size-6 stroke-[1.5] text-tpparagraph" />
+          }
+        />
+      </Carousel>
     </section>
   )
 }
@@ -244,7 +315,7 @@ const CategoriesWithServices = () => {
   return (
     <MaxWidthWrapper className="mb-6">
       <Card className="w-full shadow-sm p-4 rounded-xl">
-        <div className="flex w-full mb-6 justify-between">
+        <div className="flex w-full mb-6 justify-between gap-2">
           <Categories />
           <Services />
         </div>
