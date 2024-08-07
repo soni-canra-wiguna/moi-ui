@@ -1,6 +1,6 @@
 import { Facebook, Instagram, Twitter } from "lucide-react"
 import MaxWidthWrapper from "./MaxWidthWrapper"
-import getYear from "../../../lib/date"
+import getYear from "@/lib/date"
 
 const Footer = () => {
   const year = getYear()

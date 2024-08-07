@@ -4,6 +4,13 @@ const defaultTheme = require("tailwindcss/defaultTheme")
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    container: {
+      center: true,
+      padding: "2rem",
+      screens: {
+        "2xl": "1440px",
+      },
+    },
     extend: {
       screens: {
         sm: "601px",
@@ -20,6 +27,15 @@ export default {
         wmuted: "hsl(var(--wumbo-muted))",
         wprimarylight: "hsl(var(--wumbo-primary-light))",
         wmutedlight: "hsl(var(--wumbo-muted-light))",
+        //tokopedia
+        tpprimary: "hsl(var(--tp-primary))",
+        tpsecondary: "hsl(var(--tp-secondary))",
+        tpbackground: "hsl(var(--tp-background))",
+        tpforeground: "hsl(var(--tp-foreground))",
+        tptext: "hsl(var(--tp-text))",
+        tpparagraph: "hsl(var(--tp-paragraph))",
+        tpphover: "hsl(var(--tp-paragraph-hover))",
+        tpinput: "hsl(var(--tp-input))",
       },
       lineHeight: {
         30: "30px",
@@ -42,6 +58,13 @@ export default {
         grostekBold: "grostekBold",
         // dm sans
         dmsans: ['"DM Sans"', ...defaultTheme.fontFamily.sans],
+        // open sauce font
+        openSauceLight: "openSauceLight",
+        openSauceRegular: "openSauceRegular",
+        openSauceMedium: "openSauceMedium",
+        openSauceSemibold: "openSauceSemibold",
+        openSauceBold: "openSauceBold",
+        openSauceExtraBold: "openSauceExtraBold",
       },
       gap: {
         "30px": "30px",

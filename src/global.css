@@ -11,8 +11,19 @@
   --wumbo-muted: 217 19% 50%;
   --wumbo-primary-light: 217 100% 89%;
   --wumbo-muted-light: 0 0% 100% 80%;
+
+  --tp-primary: 152.1 100% 33.33%;
+  --tp-secondary: 214 30% 95%; 
+  --tp-background: 0 0% 100%;
+  --tp-foreground: 0 0% 12.94%;
+  --tp-text: 0 0% 12.94%;
+  --tp-paragraph: 222 11% 48%;
+  --tp-paragraph-hover: 152.1 100% 33.33%;
+  --tp-input: 212.73 20.75% 79.22%;
   }
 
+  /* #6d7588 #00ab55 #6e7481 #ffffff #212121 #f0f3f7 #00ab55 #03AC0E*/
+  
   html {
     font-family: "Roboto", system-ui, sans-serif;
   }
@@ -42,8 +53,39 @@
   src: local('grostekNormal'),url("./font/acid-grotesk-normal.otf") format("opentype");
 }
 
-.pGrostek {
-/* p which is mean paragraph */
+/* open sauce font */
+@font-face {
+  font-family: "openSauceLight";
+  src: local('openSauceLight'),url("./font/tokopedia/OpenSauceOne-Light.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "openSauceRegular";
+  src: local('openSauceRegular'),url("./font/tokopedia/OpenSauceOne-Regular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "openSauceMedium";
+  src: local('openSauceMedium'),url("./font/tokopedia/OpenSauceOne-Medium.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "openSauceSemibold";
+  src: local('openSauceSemibold'),url("./font/tokopedia/OpenSauceOne-SemiBold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "openSauceBold";
+  src: local('openSauceBold'),url("./font/tokopedia/OpenSauceOne-Bold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "openSauceExtraBold";
+  src: local('openSauceExtraBold'),url("./font/tokopedia/OpenSauceOne-ExtraBold.ttf") format("opentype");
+}
+
+
+.pGrostek { /* p = paragraph */
   @apply leading-[160%] tracking-wide font-grostekMd
 }
 

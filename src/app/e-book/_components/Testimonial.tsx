@@ -4,7 +4,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "../../../components/carousel"
+} from "@/components/carousel"
 import MaxWidthWrapper from "./MaxWidthWrapper"
 import MiniLabel from "./MiniLabel"
 

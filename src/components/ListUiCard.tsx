@@ -28,7 +28,7 @@ const Card = ({ slug, title, image, responsive }: DataProps) => {
           className="w-full h-full rounded-md object-cover"
         />
 
-        <div className="absolute bottom-2 left-2 flex items-center gap-2 flex lg:hidden lg:group-hover:flex wtransition">
+        <div className="absolute bottom-2 left-2 flex items-center gap-2 lg:hidden lg:group-hover:flex wtransition">
           {responsive?.map((r, i) => (
             <span
               key={i}

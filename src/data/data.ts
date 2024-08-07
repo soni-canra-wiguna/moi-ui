@@ -8,6 +8,13 @@ export interface DataProps {
 
 export const datas = [
   {
+    image: "/thumbnails/tokopedia.png",
+    title: "Tokopedia Clone",
+    slug: "/tokopedia-clone",
+    desc: "tokopedia clone",
+    responsive: ["desktop"],
+  },
+  {
     image: "/thumbnails/wb.png",
     title: "Website and Brands",
     slug: "website-branding",
@@ -48,5 +55,12 @@ export const datas = [
     slug: "/wumbo",
     desc: "Figma social media content templates for branding, marketing, insights, and more. Free for personal and commercial use!",
     responsive: ["desktop"],
+  },
+  {
+    image: "/thumbnails/random-shapes.png",
+    title: "Random Shapes",
+    slug: "/random-shapes",
+    desc: "hanya kegabutan pribadi",
+    responsive: ["mobile", "tablet", "desktop"],
   },
 ]

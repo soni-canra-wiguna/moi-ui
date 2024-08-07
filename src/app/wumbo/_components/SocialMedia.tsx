@@ -2,7 +2,7 @@ import * as React from "react"
 import { ArrowRight } from "lucide-react"
 import MaxWidthWrapper from "./MaxWidthWrapper"
 import { useState } from "react"
-import { cn } from "../../../lib/utils"
+import { cn } from "@/lib/utils"
 
 const SocialMedia = () => {
   const [tabs, setTabs] = useState(1)
